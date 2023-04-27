@@ -1,0 +1,186 @@
+/* Aquií va el comentario*/
+
+body{
+    background-color: #ece2d0;
+    color: rgb(0, 0, 0);
+    /*cambiar fuente desde el ordenador*/
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+}
+
+header nav .nav-right-section{
+    
+    height: auto;
+    display:block;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-right: 500px;
+    font-size: 25px;
+    list-style: none;
+
+
+
+}
+
+header nav img{
+    width: 75px;
+    height: 75px;
+    display: flex;
+    margin:auto ;
+    justify-content:right;
+}
+
+.jackelino{
+    font-size: 20px;
+}
+
+p{
+    color: black;
+}
+
+h1{
+    color: rgb(202, 103, 123);
+}
+
+.titulosegundo{
+    display: flex;
+    justify-content: center;
+}
+
+.huesito{
+    height: 65px;
+    width: 65px;
+    display: inline-block;
+    margin: auto;
+    justify-content:flex-start;
+
+}
+
+.huesito2{
+    height: 65px;
+    width: 65px;
+    
+}
+/* Para agregar clase ponemos un punto antes del nombre*/
+.titulo-web {
+    color: #7a6563;
+    font-size: 60px;
+    /*cambiar fuente desde google*/
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    display: inline-block;
+}
+
+.jackelino{
+    margin-right: 20px;
+}
+
+/*cambiar tamaño de imagen*/
+.flor{
+    width: 200px;
+    height: 300px;
+    border-radius: 200px;
+    margin-left: 20px;
+}
+
+.rayitas {
+  width: 200px;
+  height: 300px;
+  border-radius: 200px;
+  margin-left: 450px;
+
+
+
+}
+
+.pregunta-1 {
+    font-family:'Shadows Into Light', cursive;
+    font-size: x-large;
+    color: rebeccapurple;
+}
+
+.pregunta{
+    font-family:'Shadows Into Light', cursive;
+    font-size: x-large;
+    color: rebeccapurple;
+}
+
+.titulo-primero{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:center;
+    font-size: large;
+}
+
+.robo{
+    width: 75px;
+    height: 75px;
+    display: flex;
+    margin:auto ;
+    justify-content:right;
+    
+}
+
+.lista-1{
+    font-size: 0,5cm;
+}
+
+.parque{
+    width: 150px;
+    height: 150px;
+}
+
+
+.planta{
+    display: block;
+    margin: auto;;
+    width: 150px;
+    height: 150px;
+
+}
+
+footer{
+    background-color: rgb(236, 192, 225);
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    border-top: 1px solid rgb(233, 138, 209);
+    display: flex;
+    justify-self: right;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+.listas{
+margin: 10px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+align-items: center;
+bottom: 0;
+
+}
+
+.listas .ama{
+    justify-self: center;
+}
+
+.listas .odia{
+    justify-self: center;
+
+}
+
+
